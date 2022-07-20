@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+.content-box{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+section .text-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+section .text-content h1{
+    font-size: 36px;
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+    
+    color: #6C63FF;
+}
+
+section .text-content .text-subtitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 50px;
+    padding-left: 35px;
+}
+
+section .text-content .text-subtitle p{
+    font-size: 14px;
+    color: #C8C8C8;
+    text-align: center;
+    
+}
+
+section .text-content .text-time{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-evenly;
+   
+}
+
+section .text-content .text-time h3{
+    font-weight: 400;
+    font-size: 72px;
+    color: #4D4C59;
+}
+
+section .text-content .bottom-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section .text-content .bottom-info p{
+    font-size: 14px;
+    color: #9C9AB6;
+    padding-bottom: 31px;
+}
+
+section .text-content .bottom-info button{
+    background: #6C63FF;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+    padding: 10px 32px 16px 32px;
+    color: #FFFFFF;
+    align-items: center;
+}
+
