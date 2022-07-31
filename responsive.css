@@ -1,0 +1,64 @@
+@media (max-width: 1024px){
+
+    .text-content h1{
+        font-size: 27px !important;
+        text-align: center;
+    }
+    
+    .text-content .text-subtitle{
+
+        padding-right: 30px !important;
+        padding-left: 25px !important;
+    }
+
+    .text-content .text-time h3{
+        font-size: 60px !important;
+    }
+
+    .text-content .bottom-info p{
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 768px){
+
+    section .text-content{
+        padding-right: 50px !important;
+    }
+
+    .text-content .text-subtitle{
+
+        padding-right: 10px !important;
+        padding-left: 15px !important;
+    }
+
+    .text-content .text-time h3{
+        font-size: 50px !important;
+    }
+}
+
+@media (max-width: 425px){
+
+    .content-box{
+        flex-direction: column-reverse;
+        align-items:  center;
+    }
+
+    img[src="images/rocket.svg"]{
+        width: 70%;
+    }
+    section .text-content{
+        padding-right: 0px !important;
+    }
+
+    .text-content .text-subtitle{
+
+        padding-right: 10px !important;
+        padding-left: 15px !important;
+    }
+
+    .text-content .text-time h3{
+        font-size: 30px !important;
+    }
+}
